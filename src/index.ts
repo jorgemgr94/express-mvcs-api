@@ -1,5 +1,5 @@
 import { MongoDB } from './config/mongoDB';
-import { PetsBackendApp } from './app';
+import { ExpressBackendApp } from './app';
 import dotenv from 'dotenv';
 
 async function init() {
@@ -8,7 +8,7 @@ async function init() {
 	const mongoDb = new MongoDB();
 	await mongoDb.start();
 
-	const app = new PetsBackendApp();
+	const app = new ExpressBackendApp();
 	app.start();
 }
 

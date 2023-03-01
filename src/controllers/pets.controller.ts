@@ -1,5 +1,5 @@
 import { Response, Request } from 'express';
-import { Pet, IPet } from '../schemas/Pet.schema';
+import { Pet, IPet } from '../models/Pet.model';
 import { CustomRequest } from '../util/express/types';
 
 export async function findAll(_: Request, res: Response) {

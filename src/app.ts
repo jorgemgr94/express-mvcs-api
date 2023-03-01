@@ -5,7 +5,7 @@ import helmet from 'helmet';
 
 import routes from './routes/index.routes';
 
-export class PetsBackendApp {
+export class ExpressBackendApp {
 	app: Express;
 
 	constructor() {

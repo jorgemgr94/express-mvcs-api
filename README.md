@@ -7,7 +7,7 @@
 - [X] Docker
 
 ## Pending
-- [ ] Body schema validation with Joi
+- [ ] Body schema validation
 - [ ] Testing
 - [ ] Protected routes
 - [ ] Role-based authentication
